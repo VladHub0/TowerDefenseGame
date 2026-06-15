@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac574dfeba56b65459568a453ed5898a, type: 3}
+  m_Name: Scout
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyType: 1
+  enemyName: Scout
+  prefab: {fileID: 1650726787631055333, guid: 3ced45735b707ed40be0d9c0716c7174, type: 3}
+  maxHealth: 35
+  speed: 1.2
+  damageToCastle: 2
+  turnSpeed: 5
+  physicalDamageReduction: 0
+  avoidRadius: 3
+  avoidStrength: 1
+  avoidWeight: 0.45
+  avoidAngle: 60
